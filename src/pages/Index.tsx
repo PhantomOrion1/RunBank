@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pigMascot from "@/assets/pig-mascot.png";
 
 const Index = () => {
