@@ -23,7 +23,7 @@ const Index = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-foreground leading-tight tracking-tight">
           Put your money where your mouth is.
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto">
+        <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl text-left">
           RunBank helps you stay consistent with your running goals by putting money on the line.
           Hit your goals and keep your money. Miss them and it goes to charity.
         </p>
