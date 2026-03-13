@@ -13,7 +13,7 @@ const Waitlist = () => {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <nav className="flex items-center px-6 py-5 max-w-5xl mx-auto w-full">
+      <nav className="flex items-center px-6 py-5 max-w-6xl mx-auto w-full">
         <div className="flex items-center gap-2.5">
           <Link to="/" className="text-3xl font-bold text-foreground tracking-tight hover:opacity-80 transition-opacity">
             RunBank
