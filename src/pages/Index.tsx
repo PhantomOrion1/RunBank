@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Navbar */}
-      <nav className="flex items-center px-6 py-5 max-w-4xl mx-auto w-full">
+      <nav className="flex items-center px-6 py-5 max-w-5xl mx-auto w-full">
         <div className="flex items-center gap-2.5">
           <span className="text-3xl font-bold text-foreground tracking-tight">RunBank</span>
           <span className="text-[11px] font-semibold tracking-wide uppercase bg-accent text-accent-foreground px-2 py-0.5 rounded-full">
