@@ -24,9 +24,9 @@ const Waitlist = () => {
         </div>
       </nav>
 
-      <section className="flex-1 flex items-center justify-center px-6">
+      <section className="flex-1 flex items-start justify-center px-6 pt-8 md:pt-12">
         {submitted ? (
-          <div className="text-center">
+          <div className="text-center mt-24">
             <p className="text-2xl font-bold text-foreground">You're on the list. 🎉</p>
             <p className="mt-2 text-muted-foreground">We'll be in touch soon.</p>
           </div>
@@ -35,7 +35,7 @@ const Waitlist = () => {
             <img
               src={pigCoins}
               alt="RunBank pig with coins"
-              className="w-72 md:w-96 mx-auto mb-6"
+              className="w-56 md:w-72 mx-auto mb-6"
             />
             <h1 className="text-2xl font-bold text-foreground tracking-tight">Join the Waitlist</h1>
             <p className="mt-2 text-muted-foreground text-sm">Enter your email and we'll let you know when we launch.</p>
