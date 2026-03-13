@@ -42,7 +42,7 @@ const Waitlist = () => {
             <input
               type="email"
               required
-              placeholder="you@example.com"
+              placeholder="name@email.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="mt-6 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
