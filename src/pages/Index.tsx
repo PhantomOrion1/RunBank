@@ -28,7 +28,7 @@ const Index = () => {
           RunBank helps you stay consistent with your running goals by putting money on the line.
           Hit your goals and keep your money. Miss them and it goes to charity.
         </p>
-        <Link to="/waitlist" className="mt-8 inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl text-base hover:bg-primary/90 transition-all shadow-sm <Link to="/waitlist" className="mt-8 inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl text-base hover:bg-primary/90 transition-all shadow-sm animate-[softPulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] hover:animate-none hover:scale-105"> hover:animate-none hover:scale-105">
+        <Link to="/waitlist" className="mt-8 inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl text-base hover:bg-primary/90 transition-all shadow-sm animate-[softPulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] hover:animate-none hover:scale-105">
           Join Waitlist
         </Link>
       </section>
