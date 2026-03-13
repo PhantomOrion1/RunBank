@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pigMascot from "@/assets/pig-mascot.png";
+import threePigs from "@/assets/3pigs.png";
 
 const Index = () => {
   return (
@@ -17,18 +17,18 @@ const Index = () => {
       {/* Hero */}
       <section className="max-w-3xl mx-auto px-6 pt-24 md:pt-32 text-center flex-1">
         <img
-          src={pigMascot}
-          alt="RunBank pig mascot"
+          src={threePigs}
+          alt="RunBank pig mascots"
           className="w-80 md:w-[28rem] mx-auto mb-5 drop-shadow-sm"
         />
         <h1 className="text-3xl md:text-4xl font-bold text-foreground leading-tight tracking-tight">
           Put your money where your mouth is.
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl text-left ml-2">
+        <p className="mt-4 text-sm md:text-lg text-muted-foreground leading-relaxed max-w-xl text-left ml-2">
           RunBank helps you stay consistent with your running goals by putting money on the line.
           Hit your goals and keep your money. Miss them and it goes to charity.
         </p>
-        <Link to="/waitlist" className="mt-8 inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl text-base hover:bg-primary/90 transition-colors shadow-sm">
+        <Link to="/waitlist" className="mt-8 inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl text-base hover:bg-primary/90 transition-all shadow-sm animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] hover:animate-none hover:scale-105">
           Join Waitlist
         </Link>
       </section>
